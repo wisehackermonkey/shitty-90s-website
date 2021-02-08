@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Shitty 90's website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>Shitty 90's website</h1>
+    <table class="table_styling" >
+        <tbody >
+            <tr onmousemove="moveImg(event)" align="center" valign="MIDDLE">
+                <td>
+                    <img src='./img/cat_v2.png' height="100px" id='shark' />
+
+                    <h3>Welcome to the Information Super highway!</h3>
+                    <blink>JavaScript 1.3 enabled!</blink>
+                
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <h3>Aiight! Eat My Shorts.</h3>
+                    <img src="./img/eat_my_shorts.gif" alt="eat_my_shorts" srcset="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Hack the plannet </h3>
+                    <img src="./img/jain_remote.gif" alt="jain">
+
+                </td>
+                <td>
+                    <h3>Daria</h3>
+                    <img src="./img/e79b972e93543d901a10f86492dbfec8.gif" alt="jain">
+                    
+                </td>
+               
+
+            </tr>
+            <tr>
+                <td>
+                    <h3>Cowabunga baby</h3>
+                    <img src="./img/lightning.gif" alt="eat_my_shorts" srcset="">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table align="left" id="footer">
+        <tbody>
+            <tr>
+                <td>
+                    <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="bc4c8fd681d3f4bc264337202741d892|5|page|1|rgb(234, 80, 172);|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+                    <h5>Craeted bye <blink2> Oran Collins</blink2> 1997-02-08 circa (20210208)</h5>
+                </td>
+                <td>
+                    <img height="30px" src="./img/w3c-hml-4.01.png" alt="eat_my_shorts" srcset="">
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/main.js" async defer></script>
+    <div onmousemove="moveImg(event)">
+        <img src='./img/cat_v2.png' height="100px" id='shark' />
+        </div>
+        
+        <script>
+        function moveImg(event) {
+            var x = event.clientX;
+            var y = event.clientY;
+            var shark = document.getElementById("shark");
+            shark.style.left = x+'px';
+            shark.style.top = y+'px';
+        }
+        </script>
+</body>
+
+</html>

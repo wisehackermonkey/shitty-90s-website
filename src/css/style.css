@@ -1,0 +1,69 @@
+h1{
+    color:rgb(255, 0, 255);
+}
+h3{
+    color: red;
+}
+body {
+    background-image: url("/src/img/bg_brick_v1.jpg");
+}
+
+.table_styling{
+    height: 100px;
+    padding-right: 10px ;
+    padding-left: 10px ;
+    background:black;
+    border-style: inset;
+
+}
+#footer{
+    background-color:beige;
+}
+table{
+    border:3px solid bisque;
+    
+}
+tr, td{
+    border:3px solid rgb(60, 255, 0);
+
+}
+
+blink {
+    color: blue;
+    font-size:x-large;
+    
+    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 2s linear infinite condemned_blink_effect;
+  }
+  blink2 {
+    color: #ff0000;
+    font-size:x-large;
+    
+    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 2s linear infinite condemned_blink_effect;
+  }
+  
+  /* for Safari 4.0 - 8.0 */
+  @-webkit-keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
