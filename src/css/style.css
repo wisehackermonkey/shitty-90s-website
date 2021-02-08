@@ -5,7 +5,7 @@ h3{
     color: red;
 }
 body {
-    background-image: url("/src/img/bg_brick_v1.jpg");
+    background-image: url('/img/bg_brick_v1.jpg');
 }
 
 .table_styling{

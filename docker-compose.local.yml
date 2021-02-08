@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  shitty90swebsite:
+    image: shitty90swebsite
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes: 
+      - ./src/:/usr/share/nginx/html
+    ports:
+      - 80:80

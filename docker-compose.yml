@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  shitty90swebsite:
+    image: wisehackermonkey/shitty-90s-website:latest
+    # build:
+    #   context: .
+    #   dockerfile: ./Dockerfile
+    ports:
+      - 1990:80
