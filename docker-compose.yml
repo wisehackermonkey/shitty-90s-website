@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
   shitty90swebsite:
+    restart: always
     image: wisehackermonkey/shitty-90s-website:latest
     # build:
     #   context: .
